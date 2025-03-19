@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1280px;
+}
+.btn-custom {
+    background-color: #625CFF;
+    color: #fff;              
+    border: none;             
+  }
+  
+  .btn-custom:hover {
+    background-color: #5249e5;
+  }
+  .btn-small-text {
+    font-size: 15px;
+  }
+
+.background-grey {
+    background-color: #F5F5F5;
+}
+.container-custom {
+    width: 1680px;
+}
+.carousel-img {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.carousel-indicators {
+    position: static !important;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #625CFF;
+    border: none;
+  }
+
+  .download {
+    max-block-size: 50px;
+    padding: 0;
+  }
