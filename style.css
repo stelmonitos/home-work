@@ -1,5 +1,6 @@
-
-
+.carousel-button {
+  z-index: 2;
+}
 a {
     text-decoration: none;
 }
@@ -21,7 +22,9 @@ a {
     background-color: #F5F5F5;
 }
 .demo-reservation-photo {
-  width: 100%; height: 300px; border-radius: 8px; background-color: #d8d6d6;
+  width: 100%; height: 600px; 
+  border-radius: 16px; 
+  background-color: #d8d6d6;
 }
 .container-custom {
     width: 1680px;
@@ -66,4 +69,10 @@ a {
     height:120px; 
     background:#eee; 
     border-radius:4px;
+  }
+
+  .checkout-video{
+    width: 400px;
+    height: 225px;
+    border-radius: 16px;
   }
