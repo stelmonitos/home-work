@@ -20,6 +20,9 @@ a {
 .background-grey {
     background-color: #F5F5F5;
 }
+.demo-reservation-photo {
+  width: 100%; height: 300px; border-radius: 8px; background-color: #d8d6d6;
+}
 .container-custom {
     width: 1680px;
 }
@@ -56,4 +59,11 @@ a {
   .player{
     width: 620px;
     height: 348.6px;
+  }
+
+  .blog-box {
+    width:120px; 
+    height:120px; 
+    background:#eee; 
+    border-radius:4px;
   }
