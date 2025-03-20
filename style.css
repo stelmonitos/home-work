@@ -1,85 +1,137 @@
+:root {
+  --primary-color: #625CFF;
+  --primary-hover-color: #5249e5;
+  --white: var(--white);
+  --background-grey: #F5F5F5;
+  --demo-photo-bg: #d8d6d6;
+  --blog-box-bg: #eee;
+}
+
 .carousel-button {
   z-index: 2;
 }
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .btn-custom {
-    background-color: #625CFF;
-    color: #fff;              
-    border: none;             
-  }
-  
-  .btn-custom:hover {
-    background-color: #5249e5;
-  }
-  .btn-small-text {
-    font-size: 15px;
-  }
-
-  .play-button{
-    border-radius: 50%; 
-    background-color: #fff; 
-    width: 64px; 
-    height: 64px; 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  }
-.background-grey {
-    background-color: #F5F5F5;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
 }
+
+.btn-custom:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.btn-small-text {
+  font-size: 15px;
+}
+
+.play-button {
+  border-radius: 50%;
+  background-color: var(--white);
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.background-grey {
+  background-color: #F5F5F5;
+}
+
 .demo-reservation-photo {
-  width: 100%; height: 600px; 
-  border-radius: 16px; 
+  width: 100%;
+  height: 600px;
+  border-radius: 16px;
   background-color: #d8d6d6;
 }
+
 .container-custom {
-    width: 1680px;
+  width: 1680px;
 }
+
 .carousel-img {
-    border-radius: 16px;
-    width: 100%;
+  border-radius: 16px;
+  width: 100%;
 }
 
 .carousel-indicators {
-    position: static !important;
-  }
-  
-  .carousel-indicators [data-bs-target] {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #625CFF;
-    border: none;
-  }
+  position: static !important;
+}
 
-  .download {
-    max-block-size: 50px;
-    padding: 0;
-  }
-  .logo-square {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px !important;
-    height: 90px;
-    flex-shrink: 0;
-  }
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #625CFF;
+  border: none;
+}
 
-  .player{
-    width: 620px;
-    height: 348.6px;
-  }
+.form-control {
+  border-radius: 0px;
+}
 
-  .blog-box {
-    width:120px; 
-    height:120px; 
-    background:#eee; 
-    border-radius:4px;
-  }
+.download {
+  max-block-size: 50px;
+  padding: 0;
+}
 
-  .checkout-video{
-    width: 400px;
-    height: 225px;
-    border-radius: 16px;
-  }
+.logo-square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px !important;
+  height: 90px;
+  flex-shrink: 0;
+}
+
+.player {
+  width: 620px;
+  height: 348.6px;
+}
+
+.blog-box {
+  width: 120px;
+  height: 120px;
+  background: #eee;
+  border-radius: 4px;
+}
+
+.checkout-video {
+  width: 400px;
+  height: 225px;
+  border-radius: 16px;
+}
+
+.custom-button {
+  border-radius: 16px;
+  width: 272px;
+  height: 74px;
+}
+
+.regulamin {
+  color: white;
+  text-decoration: underline;
+
+}
+
+.label{
+  background-color: var(--primary-color); 
+  width: 168px; 
+  height: 40px;
+  border-radius: 0px;
+}
+
+.img-placeholder-yt{
+  width: 510px; 
+  height: 700px;
+  border-radius: 16px;
+}
+
+#multiItemCarousel .carousel-control-prev,
+#multiItemCarousel .carousel-control-next {
+  display: none !important;
+}
