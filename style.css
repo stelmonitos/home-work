@@ -1,67 +1,24 @@
 :root {
+  /* Zmienne globalne */
   --primary-color: #625CFF;
   --primary-hover-color: #5249e5;
-  --white: var(--white);
+  --white: #fff;
   --background-grey: #F5F5F5;
   --demo-photo-bg: #d8d6d6;
   --blog-box-bg: #eee;
 }
 
+/* Karuzela */
 .carousel-button {
   z-index: 2;
 }
-
-a {
-  text-decoration: none;
-}
-
-.btn-custom {
-  background-color: var(--primary-color);
-  color: var(--white);
-  border: none;
-}
-
-.btn-custom:hover {
-  background-color: var(--primary-hover-color);
-}
-
-.btn-small-text {
-  font-size: 15px;
-}
-
-.play-button {
-  border-radius: 50%;
-  background-color: var(--white);
-  width: 120px;
-  height: 120px;
-  background-color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.background-grey {
-  background-color: #F5F5F5;
-}
-
-.demo-reservation-photo {
-  width: 100%;
-  height: 600px;
-  border-radius: 16px;
-  background-color: #d8d6d6;
-}
-
-.container-custom {
-  width: 1680px;
-}
-
 .carousel-img {
   border-radius: 16px;
   width: 100%;
 }
-
 .carousel-indicators {
   position: static !important;
 }
-
 .carousel-indicators [data-bs-target] {
   width: 15px;
   height: 15px;
@@ -70,15 +27,60 @@ a {
   border: none;
 }
 
+/* Linki i przyciski */
+a {
+  text-decoration: none;
+}
+.btn-custom {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+}
+.btn-custom:hover {
+  background-color: var(--primary-hover-color);
+}
+.btn-small-text {
+  font-size: 15px;
+}
+.custom-button {
+  border-radius: 16px;
+  width: 272px;
+  height: 74px;
+}
+.play-button {
+  border-radius: 50%;
+  background-color: var(--white);
+  width: 120px;
+  height: 120px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tła i kontenery */
+.background-grey {
+  background-color: #F5F5F5;
+}
+.demo-reservation-photo {
+  width: 100%;
+  height: 600px;
+  border-radius: 16px;
+  background-color: #d8d6d6;
+}
+.container-custom {
+  width: 1680px;
+}
+
+/* Formularze */
 .form-control {
   border-radius: 0px;
 }
 
+/* Pobieranie plików */
 .download {
   max-block-size: 50px;
   padding: 0;
 }
 
+/* Logo */
 .logo-square {
   display: flex;
   align-items: center;
@@ -88,11 +90,18 @@ a {
   flex-shrink: 0;
 }
 
+/* Odtwarzacz wideo */
 .player {
   width: 620px;
   height: 348.6px;
 }
+.checkout-video {
+  width: 400px;
+  height: 225px;
+  border-radius: 16px;
+}
 
+/* Blog */
 .blog-box {
   width: 120px;
   height: 120px;
@@ -100,37 +109,24 @@ a {
   border-radius: 4px;
 }
 
-.checkout-video {
-  width: 400px;
-  height: 225px;
-  border-radius: 16px;
-}
-
-.custom-button {
-  border-radius: 16px;
-  width: 272px;
-  height: 74px;
-}
-
+/* Dodatkowe elementy */
 .regulamin {
   color: white;
   text-decoration: underline;
-
 }
-
-.label{
-  background-color: var(--primary-color); 
-  width: 168px; 
+.label {
+  background-color: var(--primary-color);
+  width: 168px;
   height: 40px;
   border-radius: 0px;
 }
-
-.img-placeholder-yt{
-  width: 510px; 
+.img-placeholder-yt {
+  width: 510px;
   height: 700px;
   border-radius: 16px;
 }
 
+/* Ukrycie standardowych kontrolek karuzeli w multiItemCarousel */
 #multiItemCarousel .carousel-control-prev,
 #multiItemCarousel .carousel-control-next {
   display: none !important;
