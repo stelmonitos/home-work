@@ -1,9 +1,9 @@
+
+
 a {
     text-decoration: none;
 }
-.container {
-    width: 1280px;
-}
+
 .btn-custom {
     background-color: #625CFF;
     color: #fff;              
@@ -43,4 +43,17 @@ a {
   .download {
     max-block-size: 50px;
     padding: 0;
+  }
+  .logo-square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px !important;
+    height: 90px;
+    flex-shrink: 0;
+  }
+
+  .player{
+    width: 620px;
+    height: 348.6px;
   }
