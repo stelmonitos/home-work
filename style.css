@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   /* Zmienne globalne */
   --primary-color: #625CFF;
@@ -12,10 +13,12 @@
 .carousel-button {
   z-index: 2;
 }
+
 .carousel-img {
   border-radius: 16px;
   width: 100%;
 }
+
 .carousel-indicators {
   position: static !important;
 }
@@ -31,22 +34,26 @@
 a {
   text-decoration: none;
 }
-.btn-custom {
+
+.primary-btn {
   background-color: var(--primary-color);
   color: var(--white);
   border: none;
 }
-.btn-custom:hover {
+.primary-btn:hover {
   background-color: var(--primary-hover-color);
 }
+
 .btn-small-text {
   font-size: 15px;
 }
+
 .custom-button {
   border-radius: 16px;
   width: 272px;
   height: 74px;
 }
+
 .play-button {
   border-radius: 50%;
   background-color: var(--white);
@@ -59,19 +66,21 @@ a {
 .background-grey {
   background-color: #F5F5F5;
 }
+
 .demo-reservation-photo {
   width: 100%;
   height: 600px;
   border-radius: 16px;
   background-color: #d8d6d6;
 }
+
 .container-custom {
   width: 1680px;
 }
 
 /* Formularze */
 .form-control {
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 /* Pobieranie plików */
@@ -95,6 +104,7 @@ a {
   width: 620px;
   height: 348.6px;
 }
+
 .checkout-video {
   width: 400px;
   height: 225px;
@@ -114,12 +124,14 @@ a {
   color: white;
   text-decoration: underline;
 }
+
 .label {
   background-color: var(--primary-color);
   width: 168px;
   height: 40px;
-  border-radius: 0px;
+  border-radius: 0;
 }
+
 .img-placeholder-yt {
   width: 510px;
   height: 700px;
@@ -131,3 +143,5 @@ a {
 #multiItemCarousel .carousel-control-next {
   display: none !important;
 }
+
+/*# sourceMappingURL=style.css.map */
