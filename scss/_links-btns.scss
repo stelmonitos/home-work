@@ -1,0 +1,31 @@
+a {
+    text-decoration: none;
+  }
+  
+  .primary-btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+  
+    &:hover {
+      background-color: var(--primary-hover-color);
+    }
+  }
+  
+  .btn-small-text {
+    font-size: 15px;
+  }
+  
+  .custom-button {
+    border-radius: 16px;
+    width: 272px;
+    height: 74px;
+  }
+  
+  .play-button {
+    border-radius: 50%;
+    background-color: var(--white);
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }

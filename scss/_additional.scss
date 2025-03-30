@@ -1,0 +1,26 @@
+  .regulamin {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .label {
+    background-color: var(--primary-color);
+    width: 168px;
+    height: 40px;
+    border-radius: 0;
+  }
+  
+  .img-placeholder-yt {
+    width: 510px;
+    height: 700px;
+    border-radius: 16px;
+  }
+  
+  /* Ukrycie standardowych kontrolek karuzeli w multiItemCarousel */
+  #multiItemCarousel {
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none !important;
+    }
+  }
+  

@@ -1,0 +1,20 @@
+.carousel-button {
+    z-index: 2;
+  }
+  
+  .carousel-img {
+    border-radius: 16px;
+    width: 100%;
+  }
+  
+  .carousel-indicators {
+    position: static !important;
+    
+    [data-bs-target] {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: #625CFF;
+      border: none;
+    }
+  }

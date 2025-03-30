@@ -1,0 +1,10 @@
+{
+    "name": "myproject",
+    "version": "1.0.0",
+    "dependencies": {
+        "sass": "^1.86.0"
+    },
+    "scripts": {
+        "sass": "sass scss/style.scss public/css/style.css --watch --no-source-map"
+    }
+}
